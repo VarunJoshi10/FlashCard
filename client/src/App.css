@@ -27,16 +27,25 @@
 }
 
 .decks li{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 120px;
-  background: blueviolet;
-  border: 1px solid blueviolet;
+  background: #333333;
+  color: #eee;
+  border: 1px solid black;
   cursor: pointer;
   border-radius:10px;
 }
 
+.decks li button{
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  right: 5px;
+}
+
 .decks li:hover{
-  background: #eee;
+  background: #787878;
 }
